@@ -30,6 +30,7 @@ html {
   border: 2px black;
   overflow: hidden;
   position: fixed;
+  z-index: 100;
 }
 .jhigu-chhen a {
   height: 5em;
@@ -63,7 +64,7 @@ html {
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 3;
+  z-index: 90;
   display: flex;
   flex-direction: row;
   align-items: center;
